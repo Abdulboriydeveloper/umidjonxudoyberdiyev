@@ -1,0 +1,2 @@
+# umidjonxudoyberdiyev
+Oq-kok
