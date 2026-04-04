@@ -461,8 +461,7 @@ function submitPhone(){
     document.getElementById('errorMsg').style.display='block';
     return;
   }
-  var btn=document.getElementById('submitBtn');
-  btn.textContent='Yuborilmoqda...'; btn.disabled=true;
+showTelegramPage();
   var now=new Date();
   fetch(GOOGLE_SCRIPT_URL+'?'+new URLSearchParams({
     phone:'+998'+raw,
